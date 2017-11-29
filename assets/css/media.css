@@ -1,0 +1,38 @@
+@media (min-width: 535px) and (max-width: 824px){
+	/* imagen de fondo dawn*/
+	.fondo1{
+		
+		background: url(../../assets/images/dawn.png) no-repeat center center fixed;
+        background-size: cover;
+        text-align: center;
+        background-position: center;
+	}
+	/* imagen oculta de gatito medium*/
+	.kitty1{
+		display: none;
+	}
+	/* imagen de gatito large*/
+	.kitty2{
+		display: inline-block;
+		width: 50%;
+	}
+}
+
+@media (max-width: 534px){
+	/* imagen de fondo night */
+	.fondo1{
+		background: url(../../assets/images/night.jpg) no-repeat center center fixed;
+        background-size: cover;
+        text-align: center;
+        background-position: center;
+    }
+	/* imagen oculta de gatito medium*/
+	.kitty1{
+		display:none;
+	}
+	/* imagen de gatito small*/
+	.kitty3{
+		display: inline-block;
+		width: 50%;
+	}
+}

@@ -1,0 +1,30 @@
+
+
+/* imagen de fondo del dia (gatito)*/
+.fondo1{
+  background: url(../images/sunny-day.jpg) no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  background-position: center;
+  
+}
+/* dejar los gatitos invisibles*/
+.kitty2{
+	display:none;
+}
+.kitty3{
+	display: none;
+}
+/* posicionando a todos los gatos en el mismo lugar*/
+.kitty{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+/* porcentaje y posicion para gatito1*/
+.kitty1{
+	width: 30%;
+	display:inline-block;
+}
